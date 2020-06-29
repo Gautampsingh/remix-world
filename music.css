@@ -1,0 +1,23 @@
+canvas {
+  width: 100%;
+  background-color: black;
+  height: 100%;
+}
+
+.mobile {
+  display: none;
+}
+@media (max-width: 1000px) {
+  canvas {
+    height: 99%;
+  }
+  .mobile {
+    display: block;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
